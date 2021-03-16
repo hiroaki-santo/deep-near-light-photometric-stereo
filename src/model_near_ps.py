@@ -202,6 +202,7 @@ class NearLightPS(torch.nn.Module):
         assert S_mu.shape == (light_num, 1), S_mu.shape
 
         dot = torch.sum(S_dir.reshape(light_num, 3, 1, 1).expand(light_num, 3, m, n) * -light_directions, dim=1)
+        dot = torch.clamp(dot, 1e-12, 1.)
         radiant = torch.pow(dot, S_mu.reshape(light_num, 1, 1).expand(light_num, m, n))
         return radiant
 
