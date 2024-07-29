@@ -22,11 +22,11 @@ year = {2020},
 
 ## Dataset
 
-* CAN: https://drive.google.com/file/d/1-1s1njP7M0arN89j45b1Q0SnIZCKwMcB/
-* CUP: https://drive.google.com/file/d/1-3MN9UhYUsw4lWyPObBcD6UjpniQVfFd/
-* TURTLE: https://drive.google.com/file/d/1-3sBVBfP1k4BL8iMyMVXld3qzJ75Nhde/
+* CAN
+* CUP
+* TURTLE
 
-Please download and extract them to `PATH/TO/DATASET`.
+Please download from [here](https://www.dropbox.com/t/bQmg9BOdA7OabKeH) and extract them to `PATH/TO/DATASET`.
 
 ## How to run
 
